@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Header from './components/Header'
-import About from './components/About'
+import AboutMe from './components/AboutMe'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -9,9 +9,7 @@ function App() {
   return (
     <div>
       <Header />
-      <About />
-
-      Hello from my web dev portfolio app!
+      <AboutMe />
     </div>
   )
 }

@@ -1,8 +1,8 @@
-function About() {
+function AboutMe() {
     
     return (
       
-      <section className="about-me">
+      <div className="about-me">
         <h2>About Me</h2>
         <p>
         In my college journey, I have developed a strong interest in software development and web design. 
@@ -10,9 +10,17 @@ function About() {
         I've had the privilege of working on projects in the graphic design, software development, 
         and web development areas. These are the showcased works in my portfolio.
         </p>
-      </section>
+
+        <h3>Skills</h3>
+      <ul ClassName="skills">
+        <li>HTML5</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+
+      </div>
 
     );
   }
   
-  export default About;
+  export default AboutMe;
