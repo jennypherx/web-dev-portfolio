@@ -1,10 +1,13 @@
+import ContactMe from './pages/ContactMe'
 function Contact() {
     
     return (
-      <section className="contact">
+      <div className="contact">
         <h2>Contact Me</h2>
         {/* Remember to add a contact form */}
-      </section>
+
+        <ContactMe />
+      </div>
     );
   }
   

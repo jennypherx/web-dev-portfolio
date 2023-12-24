@@ -10,14 +10,6 @@ function AboutMe() {
         I've had the privilege of working on projects in the graphic design, software development, 
         and web development areas. These are the showcased works in my portfolio.
         </p>
-
-        <h3>Skills</h3>
-      <ul ClassName="skills">
-        <li>HTML5</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-      </ul>
-
       </div>
 
     );
