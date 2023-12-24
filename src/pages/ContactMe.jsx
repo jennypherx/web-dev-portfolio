@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function ContactMe(props) {
+function ContactMe() {
 
     const[firstName, setFirstName] = useState("")
     const[lastName, setLastName] = useState("")
