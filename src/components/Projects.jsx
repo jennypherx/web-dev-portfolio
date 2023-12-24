@@ -1,5 +1,3 @@
-import AllProjects from "../pages/AllProjects"
-
 function Projects() {
     
     return (
@@ -8,13 +6,13 @@ function Projects() {
         
         <h2>Projects</h2>
 
-      <ul ClassName="projects">
+      <ul className="projects">
         <li>Project 1</li>
         <li>Project 2</li>
         <li>Project 3</li>
       </ul>
 
-        <h4>View all projects</h4>
+      <button>View all projects</button>
         {/* <AllProjects /> */}
 
       </div>

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function ContactMe() {
+function Contact() {
 
     const[firstName, setFirstName] = useState("")
     const[lastName, setLastName] = useState("")
@@ -49,5 +49,4 @@ function ContactMe() {
     )
 }
 
-  
-  export default ContactMe
+  export default Contact
