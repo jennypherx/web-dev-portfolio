@@ -2,17 +2,17 @@ function Projects() {
     
     return (
       
-      <div className="projects-title">
+      <div className="projects">
         
-        <h2>Projects</h2>
+        <h2 className="projects-title">Projects</h2>
 
-      <ul className="projects">
+      <ul className="projects-list">
         <li>Project 1</li>
         <li>Project 2</li>
         <li>Project 3</li>
       </ul>
 
-      <button>View all projects</button>
+      <button className="view-projects">View all projects</button>
         {/* <AllProjects /> */}
 
       </div>

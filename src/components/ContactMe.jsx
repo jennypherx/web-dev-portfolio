@@ -1,7 +1,7 @@
 function ContactMe() {
     
     return (
-      <div className="contact">
+      <div className="contact-me">
         <h2>Contact Me</h2>
       </div>
     );
