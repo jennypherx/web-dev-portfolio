@@ -18,8 +18,8 @@ function App() {
       <Header />
       <AboutMe />
       <Projects />
-      <Contact />
       <ContactMe />
+      <Contact />
       <Footer />
     </div>
   )
